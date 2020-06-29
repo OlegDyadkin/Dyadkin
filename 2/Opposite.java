@@ -6,6 +6,7 @@ public class Opposite {
         int[] numbersArray;
         numbersArray = new int[10];
         Random random = new Random();
+        System.out.println("Рандомный массив:");
         for (int i = 0; i < numbersArray.length; i++) {
             numbersArray[i] = random.nextInt();
             System.out.println(numbersArray[i]);
@@ -20,7 +21,7 @@ public class Opposite {
             }
 
         }
-        System.out.println("Итоговый массив: ");
+        System.out.println("Измененный массив: ");
         for (int i = 0; i < numbersArray.length; i++) {
             System.out.println(numbersArray[i]);
         }
