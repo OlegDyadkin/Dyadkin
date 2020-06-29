@@ -20,7 +20,7 @@ public class Opposite {
             }
 
         }
-        System.out.println("Итоговый массив:");
+        System.out.println("Итоговый массив: ");
         for (int i = 0; i < numbersArray.length; i++) {
             System.out.println(numbersArray[i]);
         }
